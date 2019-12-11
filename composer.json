@@ -1,0 +1,24 @@
+{
+  "name": "3li3bdalla/sudapay",
+  "description": "ebs system",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "3li3bdalla",
+      "email": "ali.dev.sd@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/http-client": "^5.0",
+    "symfony/error-handler": "^5.0",
+    "symfony/dotenv": "^5.0",
+    "symfony/phpunit-bridge": "^5.0",
+    "symfony/validator": "^5.0",
+    "phpseclib/phpseclib": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZootTM\\": "src"
+    }
+  }
+}
